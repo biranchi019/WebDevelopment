@@ -1,0 +1,190 @@
+.header a:link {
+  font-weight: lighter;
+  color: skyblue;
+  text-decoration: none;
+}
+.header a:visited {
+  font-weight: lighter;
+  color: skyblue;
+  text-decoration: none;
+}
+
+.header a:active {
+  font-weight: lighter;
+  color: skyblue;
+  text-decoration: none;
+}
+.header a:hover {
+  font-weight: bolder;
+  color: coral;
+  text-decoration: none;
+}
+.header {
+  float: right;
+  margin: 20px;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+  word-spacing: 10px;
+}
+.header li {
+  display: inline;
+}
+#ip {
+  margin: auto;
+}
+.container {
+  width: 80%;
+  padding: 5px;
+  background-color: white;
+  margin: 10px auto;
+  display: flex;
+}
+
+.box {
+  height: 250px;
+  width: 300px;
+  background-color: none;
+  margin: 0px 5px;
+}
+.box:hover {
+  transform: scale(0.9);
+}
+
+.sign-up {
+  display: block;
+  border: none;
+  outline-style: none;
+  background-color: white;
+  height: 40px;
+  width: 145px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  max-width: 60%;
+}
+.nxt {
+  font-weight: bold;
+  margin: 50px;
+  display: block;
+  border: skyblue;
+  outline-style: none;
+  background-color: white;
+  font-family: "Courier New", Courier, monospace;
+  margin: auto;
+}
+.sign-up:hover {
+  border-radius: 25px;
+  background-color: aqua;
+  outline-style: none;
+  font-weight: lighter;
+  font-size: large;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.nxt:hover {
+  color: white;
+  background-color: deepskyblue;
+  outline-style: none;
+  border-style: none;
+  cursor: pointer;
+}
+span {
+  text-shadow: 20px;
+  font-size: xx-large;
+  color: aqua;
+}
+
+footer {
+  position: relative;
+  background-color: aliceblue;
+  height: 40%;
+  width: 100%;
+
+  margin: auto;
+  float: left;
+}
+.f1 {
+  width: 25%;
+
+  float: left;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer .f1 h3 {
+  color: skyblue;
+  margin-top: 10%;
+  margin-left: 10%;
+  text-align: left;
+}
+.f1 .category a {
+  color: grey;
+  list-style-type: disc;
+  text-decoration: none;
+}
+
+.f2 {
+  width: 25%;
+
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.f2 h3 {
+  color: skyblue;
+  margin-top: 10%;
+  margin-left: 10%;
+  text-align: left;
+}
+.f2 .my-acc a {
+  color: grey;
+  list-style-type: disc;
+  text-decoration: none;
+}
+
+.f3 {
+  width: 25%;
+
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+.f3 h3 {
+  color: skyblue;
+  margin-top: 10%;
+
+  text-align: left;
+}
+.f3 p {
+  color: grey;
+  text-align: left;
+}
+.f3 .mail {
+  text-decoration: none;
+}
+.f4 {
+  width: 25%;
+
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.f4 h3 {
+  color: skyblue;
+  margin-top: 10%;
+  margin-left: 10%;
+  text-align: left;
+}
+.app img {
+  margin-left: 10%;
+  width: 40%;
+}
+.app img:hover {
+  width: 45%;
+}
+
+.footer-bot {
+  text-align: center;
+}
+.footer-bot #copy {
+  text-decoration: none;
+  color: red;
+}
